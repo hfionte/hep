@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #51545a;
+	margin: 0;
+	padding: 0;
+}
+
+div#wrapper {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+}
+
+div#header {
+	color: #ffffff;
+	background-color: #51545a;
+	border-top: 10px solid #47252a;
+}
+
+div#contentbox {
+	background-color: #47252a;
+	padding: 20px;
+}
+
+div#content {
+	background-color: #ffffff;
+	padding: 30px;
+	height: 440px;
+}
+
+div#contentresume {
+	background-color: #ffffff;
+	padding: 30px;
+}
+
+div.name {
+	font-weight: normal;
+	font-size: 190%;
+	padding: 20px 0px 10px 20px;
+	letter-spacing: 2px;
+}
+
+#contact {
+	float: right;
+	display: inline;
+	padding: 30px 20px 20px 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:hover.name {
+	text-decoration: none;
+}
+
+a.white {
+	color: #ffffff;
+}
+
+div#boxes {
+	padding-left: 30px;
+}
+
+img.box {
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+img:hover.box {
+	filter:alpha(opacity=60);
+	-moz-opacity:0.6;
+	-khtml-opacity: 0.6;
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+h2 {
+	color: #c92918;
+}
+
+div#description {
+	width: 200px;
+}
+
+div#image {
+	width: 550px;
+	text-align: center;
+	float: right;
+}
+
+ul.footnote {
+	font-style: italic;
+	color: #c92918;
+	margin-left: 0;
+	padding-left: 15px;
+}
+
+table {
+	border: none;
+	border-collapse: collapse;
+}
+
+table td {
+	border: none;
+	vertical-align: top;
+}
+
+table td.rj {
+	text-align: right;
+	padding-right: 20px;
+}

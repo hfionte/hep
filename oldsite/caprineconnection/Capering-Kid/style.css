@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body#index {
+	background-image:url(images/index-background.gif);
+	background-position: top;
+	background-repeat: no-repeat;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #662d91;
+	background-color: #FFFFFF;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #662d91;
+	background-color: #662d91;
+	margin: 0px;
+}
+
+h2 {
+	color: #bad764;
+}
+
+#wrapper {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bodyBox {
+	background-color: #FFFFFF;
+	width: 835px;
+	min-height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 100px;
+}
+
+#caperingKid {
+	position: relative;
+	left: 20px;
+	top: 15px;
+}
+
+#indexPlaces {
+	width: 90%;
+	position: absolute;
+	top: 360px;
+	text-align: center;
+	font-size: large;
+}
+
+#places {
+	position: relative;
+	top: -35px;
+	left: 120px;
+	text-align: center;
+	font-size: large;
+}
+
+.place {
+	margin: 20px;
+	color: #662d91;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #fbb040;
+}
+
+a.place {
+	color: #662d91;
+	text-decoration: none;
+}
+
+a.place:hover {
+	color: #fbb040;
+	text-decoration: none;
+}
+
+.indexPlace {
+	margin: 20px;
+	color: #FFFFFF;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #fbb040;
+}
+
+a.indexPlace {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.indexPlace:hover {
+	color: #fbb040;
+	text-decoration: none;
+}
+
+#content {
+	padding-left: 117px;
+	padding-top: 50px;
+	max-width: 500px;
+}
+
+#footer {
+	position: relative;
+	left: -49px;
+	top: 100px;
+	z-index: 2;
+}

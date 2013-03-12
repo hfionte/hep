@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #ECF2F4;
+	color: #334650;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.7em;
+}
+
+a { color: #334650; }
+
+a img { border: none; }
+
+div#wrapper {
+	margin: auto;
+	width: 960px;
+}
+
+div#header {
+	padding: 10px 0;
+	border-bottom: 4px solid #BCCCD3;
+}
+
+img#hollyfionte {
+	float: left;
+	padding-left:20px;
+}
+
+div#nav {
+	float: right;
+	width: 600px;
+	text-align: right;
+}
+
+div#nav img {
+	padding:10px 20px;
+}
+
+div#portfolio, div#resume, div#contact {
+	margin:10px;
+	padding:10px;
+	background-color: #fff;
+	border: 1px solid #BCCCD3;
+	text-align: center;
+}
+
+div#resume {
+	text-align: left;
+	padding: 10px 100px;
+}
+
+table, tr, td {
+	border: none;
+	vertical-align: top;
+}
+
+td.rj {
+	text-align: right;
+	padding-right: 20px;
+}
+
+div#portfolio img {
+	border: 1px solid #BCCCD3;
+	margin-right: 10px;
+}
+
+div#slidenav a {
+	text-decoration: none;
+	padding: 5px 10px;
+	margin: 0 5px;
+	background-color: #BCCCD3;
+	color: #fff;
+	font-weight: bold;
+}
+
+div#slidenav a.activeSlide {
+	color: #618594;
+	background-color: #ECF2F4;
+	border: 1px solid #BCCCD3;
+}
+
+div#slidenav a:hover {
+	color: #334650;
+}
+
+div#footer {
+	border-top: 4px solid #BCCCD3;
+	padding:20px;
+	text-align: center;
+}

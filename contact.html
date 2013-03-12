@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Graphic Design, Interactive Design, Web Design & Development - Holly Fionte</title>
+<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+<script src="jquery.js"></script>
+<script src="jquery-cycle.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.slideshow').cycle({
+		fx: 'fade',
+		timeout: 0,
+		speed: 400,
+		next: '#next', 
+		prev: '#prev',
+		pager: '#slidenav' 
+	});
+});
+</script>
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="main">
+    <div id="header">
+      <a href="index.html"><img src="images/holly-fionte.png" alt="Holly Fionte" id="hollyfionte" /></a>
+      <div id="nav">
+        <a href="index.html"><img src="images/portfolio.png" alt="Portfolio" border="0" /></a><a href="art.html"><img src="images/art.png" alt="Art" border="0" /></a><a href="resume.html"><img src="images/resume.png" alt="Resume" border="0" /></a><a href="contact.html"><img src="images/contact.png" alt="Contact" border="0" /></a>
+      </div><!--nav-->
+      <div style="clear:both;"></div>
+    </div><!--header-->
+    <div id="contact">
+      <h1>Holly Fionte: Contact</h1>
+      <p><a href="mailto:hfionte@gmail.com">hfionte@gmail.com</a></p>
+      <p>978.857.7135</p>
+      <p>111 Water Street<br />
+      Newburyport, MA 01950</p>
+    </div><!--contact-->
+  </div><!--main-->
+  <div id="footer">
+    <p style="font-size:15px;">Holly Fionte</p>
+    <p>Graphic Design&nbsp;&nbsp;//&nbsp;&nbsp;Interactive &amp; Web Design&nbsp;&nbsp;//&nbsp;&nbsp;Web Development</p>
+    <p><a href="mailto:hfionte@gmail.com">hfionte@gmail.com</a>&nbsp;&nbsp;//&nbsp;&nbsp;978.857.7135</p>
+  </div><!--footer-->
+</div><!--wrapper-->
+</body>
+
+</html>

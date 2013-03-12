@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Paintings, Drawings, Book Design, Art - Holly Fionte</title>
+<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+<script src="jquery.js"></script>
+<script src="jquery-cycle.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.slideshow').cycle({
+		fx: 'fade',
+		timeout: 0,
+		speed: 400,
+		next: '#next', 
+		prev: '#prev',
+		pager: '#slidenav' 
+	});
+});
+</script>
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="main">
+    <div id="header">
+      <a href="index.html"><img src="images/holly-fionte.png" alt="Holly Fionte" id="hollyfionte" /></a>
+      <div id="nav">
+        <a href="index.html"><img src="images/portfolio.png" alt="Portfolio" border="0" /></a><a href="art.html"><img src="images/art.png" alt="Art" border="0" /></a><a href="resume.html"><img src="images/resume.png" alt="Resume" border="0" /></a><a href="contact.html"><img src="images/contact.png" alt="Contact" border="0" /></a>
+      </div><!--nav-->
+      <div style="clear:both;"></div>
+    </div><!--header-->
+    <div id="portfolio">
+      <p><a href="#" id="prev">Previous</a>&nbsp;&nbsp;&nbsp;<a href="#" id="next">Next</a></p>
+      <div id="slidenav"></div>
+      <div class="slideshow" style="width: 800px; height: 700px; text-align: center; margin: auto;">
+        <div class="slide" style="width: 800px; text-align: center; margin: auto;">
+          <h2>Rocks at Joppa Park</h2>
+          <p>Oil on Canvas</p>
+          <p><img src="images/joppa-rocks.jpg" alt="Rocks at Joppa Park" /></p>
+        </div>
+        <div class="slide" style="width: 800px; text-align: center; margin: auto;">
+          <h2>Last Light</h2>
+          <p>Oil on Canvas</p>
+          <p><img src="images/joppa-park.jpg" alt="Last Light" /></p>
+        </div>
+        <div class="slide" style="width: 800px; text-align: center; margin: auto;">
+          <h2>Goldfish</h2>
+          <p>Gouache on Paper</p>
+          <p><img src="images/goldfish.jpg" alt="Goldfish" /></p>
+        </div>
+        <div class="slide" style="width: 800px; text-align: center; margin: auto;">
+          <h2>Experiments in Gouache</h2>
+          <p>Gouache on Board</p>
+          <p><img src="images/gouache-panels.jpg" alt="Gouache Studies" /></p>
+        </div>
+        <div class="slide" style="width: 800px; text-align: center; margin: auto;">
+          <h2>A Treasure</h2>
+          <p>Handmade Book &amp; Box with Linoleum Prints</p>
+          <p><img src="images/seaglass.jpg" alt="A Treasure" /></p>
+        </div>
+        <div class="slide" style="width: 800px; text-align: center; margin: auto;">
+          <h2>Sketch of Gipsy Park</h2>
+          <p>Pen &amp; Watercolor</p>
+          <p><img src="images/gipsy-park.jpg" alt="Gipsy Park" /></p>
+        </div>
+        <div class="slide" style="width: 800px; text-align: center; margin: auto;">
+          <h2>Spandy</h2>
+          <p>Pencil</p>
+          <p><img src="images/spandy.jpg" alt="Spandy" /></p>
+        </div>
+      </div><!--slideshow-->
+    </div><!--portfolio-->
+  </div><!--main-->
+  <div id="footer">
+    <p style="font-size:15px;">Holly Fionte</p>
+    <p>Graphic Design&nbsp;&nbsp;//&nbsp;&nbsp;Interactive &amp; Web Design&nbsp;&nbsp;//&nbsp;&nbsp;Web Development</p>
+    <p><a href="mailto:hfionte@gmail.com">hfionte@gmail.com</a>&nbsp;&nbsp;//&nbsp;&nbsp;978.857.7135</p>
+  </div><!--footer-->
+</div><!--wrapper-->
+</body>
+
+</html>

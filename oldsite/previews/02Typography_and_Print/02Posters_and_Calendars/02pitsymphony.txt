@@ -1,0 +1,1 @@
+title = "Concert Poster"class = "Typography I,<br/>fall 2006"discussion = "<p>This poster for the Pittsburgh Symphony Orchestra was created as an exercise in typographic hierarchy. The challenge was to create a visually active design using only 2 typefaces in black and white.</p>"

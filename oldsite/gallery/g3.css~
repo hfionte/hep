@@ -1,0 +1,138 @@
+body {
+   color: black;
+   background-color: gray;
+   font-size: medium;
+   font-family: Georgia, "Times New Roman", Times, serif;
+   margin:0;
+}
+#header {
+   float:left;
+	height: 60px;
+   width:290px;
+	background-color: #315784;
+   border-bottom:thin solid #a0a0a0;
+   cursor:pointer;
+}
+#header h1 {
+   color:#ef4d4d;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size:25px;
+   font-weight:normal;
+   padding:10px 20px 10px 20px;
+   margin:0;
+}
+#sidenav, #narrative {
+   clear:left;
+   float:left;
+   width:280px;
+	padding: 5px;
+	background-color: transparent;
+}
+#sidenav {
+	background-color: #315784;
+   color:white;
+   min-height:450px;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+   font-size:1.1em;
+}
+#sidenav dl {
+   margin-left:30px;
+   margin-right:20px;
+}
+#sidenav dt {
+   margin-top:1em;
+}
+#sidenav dl.closed dt:hover, dd.closed:hover {
+   color:#68a0f4;
+   cursor:pointer;
+}
+#sidenav dl.open dt:hover, dd.open:hover {
+   cursor:default;
+}
+#sidenav dd {
+   margin-top:0.5em;
+   margin-left:2em;
+   font-size:80%;
+}
+#sidenav dl.open dd {
+   display:block;
+}
+#sidenav dl.closed dd {
+   display:none;
+}
+#sidenav dd.open {
+   font-weight:bold;
+}
+#sidenav dd.closed {
+   font-weight:normal;
+}
+.key {
+   display:none;
+}
+#narrative {
+   clear:left;
+   margin-top:30px;
+   cursor:default;
+}
+#narrative p {
+	margin: .5em 50px .5em 1em;
+	font-size: 80%;
+}
+#randomize {
+   margin:0px 30px 20px .5em;
+   padding:10px;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+   background-color:#a0a0a0;
+   cursor:pointer;
+   text-align:center;
+}
+#footer {
+   width:220px;
+   color:#a0a0a0;
+   clear:both;
+   text-align:left;
+   padding: 20px;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+   min-height:40px;
+   cursor:default;
+}
+#frame {
+   background-color:transparent;
+   border:thick #a0a0a0 dotted;
+   position:absolute;
+   top:10px;
+   left:300px;
+   min-width:900px;
+   margin-bottom:20px;
+}
+#frame .thumbs img.selected {
+   cursor:auto;
+}
+#frame .thumbs img.unselected {
+   cursor:pointer;
+}
+#frame .preview img.selected {
+   display:inline;
+}
+#frame .preview img.unselected {
+   display:none;
+}
+.imageset {
+   background-color:gray;
+   position:relative;
+   margin:20px 0px 20px 20px;
+}
+.activeimgs {
+   display:block;
+}
+.inactiveimgs {
+   display:none;
+}
+.thumbs img {
+   margin:15px;
+}
+.preview img {
+   margin:15px;
+   border:none;
+}
+

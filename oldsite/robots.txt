@@ -1,0 +1,5 @@
+# robots.txt
+# let's tell all robots to stay away from the entire site.
+
+User-Agent: *
+Disallow: /

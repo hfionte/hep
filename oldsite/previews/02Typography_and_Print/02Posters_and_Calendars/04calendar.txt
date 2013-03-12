@@ -1,0 +1,1 @@
+title = "Monthly Calendar"class = "Typography II,<br/>Spring 2007"discussion = "<p>This calendar was an exercise in creating a simple typographic system that could be expanded across 12 months.</p>"

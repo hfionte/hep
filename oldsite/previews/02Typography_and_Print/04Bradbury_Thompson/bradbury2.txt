@@ -1,0 +1,1 @@
+title = "Dynamic, Static"class = "Typography II,<br/>Spring 2007"discussion = "<p>This series of paired plates uses a quote by Bradbury Thompson to illustrate, through typography, pairs of opposite conditions. The pairs work together as visual opposites, and also as a cohesive group of 8 compositions.</p>"

@@ -1,0 +1,65 @@
+
+Do not use spaces in directory or file names. When using directory names for titles, underscores will be replaced by spaces.
+
+The config.ini files and the image files in originals and must readable by the webserver.
+ImageSet directories must be writable by the webserver.
+
+Need php5-gd.
+
+data structures
+
+galleryList[]
+gallery
+   title
+   list of imageSets
+imageSet
+   title
+   list of image pathnames
+
+gallery title is the gallery directory name or the first line of info.txt
+imageSet title is the imageSet directory name or the first line of info.txt
+
+images file structure
+images/
+   gallery1/
+      info.txt
+      imageset1.1/
+         info.txt
+         originals/
+            image111.jpg
+            image112.jpg
+            image113.jpg
+         previews/
+            image111.jpg
+            image112.jpg
+            image113.jpg
+         thumbs/
+            image111.jpg
+            image112.jpg
+            image113.jpg
+      imageset1.2/
+         info.txt
+         originals/
+            image121.jpg
+            image122.jpg
+            image123.jpg
+         previews/
+            image121.jpg
+            image122.jpg
+            image123.jpg
+         thumbs/
+            image121.jpg
+            image122.jpg
+            image123.jpg
+   gallery2/
+      info.txt
+      imageset2.1/
+         info.txt
+      imageset2.2/
+         info.txt
+   gallery3/
+      info.txt
+      imageset3.1/
+         info.txt
+      imageset3.2/
+         info.txt

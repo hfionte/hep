@@ -1,0 +1,2 @@
+#!/bin/bash
+rsync -av hep@bumblebeehill.org:hep/ ../gallery
